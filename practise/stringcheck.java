@@ -16,5 +16,7 @@ public class stringcheck {
     else{
         System.out.println("Strings are not same");
     }
+    boolean exactmatch=s1.equals(s2);
+    boolean ignoreCaseMatch=s1.equals(s2);
 }
 }
